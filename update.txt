@@ -1,0 +1,35 @@
+Remake Datapack
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+^^ In Progress
+
+- delete > day counter
+- delete > Non Dragon Phase in end crystal bossbar
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+^^ Have Impact With Game
+
+- delete > Auto Totem
+- delete > destroy end crystal when dragon death
+- delete > village waypoint
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+^^ Make Another Datapack
+
+- Auto Totem // Auto Items
+- Village Waypoint
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+^^ Others
+
+- delete > login ==> use login plugin or another datapack for more security
+- delete > Item Dulability ==> Use Others Databack
+    >> https://vanillatweaks.net/picker/datapacks/   -=-   Durability Ping
+    >> https://www.planetminecraft.com/data-pack/durability-hud-plus/   -=-    Have Resource Pack
+    >> https://www.planetminecraft.com/data-pack/survival-1-18/   -=-   Old Datapack
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
