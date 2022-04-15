@@ -1,0 +1,33 @@
+scoreboard players set @s ing.MATH_Random_Random 0
+
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 1
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 2
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 4
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 8
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 16
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 32
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 64
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 128
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 256
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 512
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 1024
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 2048
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 4096
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 8192
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 16384
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 32768
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 65536
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 131072
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 262144
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 524288
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 1048576
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 2097152
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 4194304
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 8388608
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 16777216
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 33554432
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 67108864
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 134217728
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 268435456
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 536870912
+execute if predicate ing:random_050 run scoreboard players add @s ing.MATH_Random_Random 1073741824

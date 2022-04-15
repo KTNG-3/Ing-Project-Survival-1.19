@@ -1,0 +1,1 @@
+execute as @a[scores={ing.STATS_dmg_mc=10..}] run function ing:project/stats/script/damage

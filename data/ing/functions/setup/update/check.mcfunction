@@ -1,0 +1,1 @@
+execute unless score VersionID_Now ing.Settings = VersionID_Data ing.Settings run function ing:setup/update/update

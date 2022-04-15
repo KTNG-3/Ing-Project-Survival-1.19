@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "1": {
+            "tag": "ing:sprucething"
+        }
+    },
+    "pattern": [
+        "11"
+    ],
+    "result": {
+        "item": "minecraft:spruce_pressure_plate",
+        "count": 4
+    }
+}

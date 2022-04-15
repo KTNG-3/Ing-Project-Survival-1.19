@@ -1,0 +1,1 @@
+scoreboard objectives remove ing.TNT_Times

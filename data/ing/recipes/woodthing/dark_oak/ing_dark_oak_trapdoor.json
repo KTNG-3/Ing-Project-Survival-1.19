@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "1": {
+            "tag": "ing:dark_oakthing"
+        }
+    },
+    "pattern": [
+        "111",
+        "111"
+    ],
+    "result": {
+        "item": "minecraft:dark_oak_trapdoor",
+        "count": 8
+    }
+}

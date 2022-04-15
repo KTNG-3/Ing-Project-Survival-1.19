@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "old_growth_spruce_taiga"
+        },
+        "description": {
+            "text": "Getting New Biome"
+        },
+        "icon": {
+            "item": "minecraft:spruce_log"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Biome": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:old_growth_spruce_taiga",
+                "dimension": "overworld"
+            }
+        }
+    },
+    "parent": "ing:adt_time/root"
+}

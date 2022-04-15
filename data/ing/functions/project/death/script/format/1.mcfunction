@@ -1,0 +1,1 @@
+execute as @s at @s run tellraw @s [{"text" : "[iNG]","color":"dark_green","bold": true},{"text" : " Deathpoint : ","color":"red","bold": true},{"score":{"name":"@s","objective":"ing.DEATH_x"},"color":"gold"},{"text":" "},{"score":{"name":"@s","objective":"ing.DEATH_y"},"color":"gold"},{"text":" "},{"score":{"name":"@s","objective":"ing.DEATH_z"},"color":"gold"}]

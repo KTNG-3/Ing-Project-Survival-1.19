@@ -1,0 +1,1 @@
+scoreboard objectives add ing.TNT_Times dummy

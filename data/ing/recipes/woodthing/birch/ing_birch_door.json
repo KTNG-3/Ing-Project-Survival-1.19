@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "1": {
+            "tag": "ing:birchthing"
+        }
+    },
+    "pattern": [
+        "11",
+        "11",
+        "11"
+    ],
+    "result": {
+        "item": "minecraft:birch_door",
+        "count": 12
+    }
+}

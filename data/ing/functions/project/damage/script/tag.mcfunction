@@ -1,0 +1,2 @@
+execute as @a at @s run tag @e[type=!player,type=!boat,type=!#minecart,type=!#arrows,type=!armor_stand,type=!#impact_projectiles,type=!item,type=!item_frame,type=!glow_item_frame,tag=!ing.TagEntity,distance=..7.25] add ing.TagEntity
+execute as @a at @s run tag @e[type=!player,type=!boat,type=!#minecart,type=!#arrows,type=!armor_stand,type=!#impact_projectiles,type=!item,type=!item_frame,type=!glow_item_frame,tag=ing.TagEntity,distance=7.26..] remove ing.TagEntity

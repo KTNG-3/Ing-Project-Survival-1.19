@@ -1,0 +1,2 @@
+execute as @s at @s run tellraw @s [{"text": "[ Load - Ing Project Survival 1.19 ]","color": "green","bold": true,"clickEvent":{"action":"run_command","value":"/trigger ing.Help set 1"},"hoverEvent":{"action":"show_text","contents":[{"text":"Loaded Datapack\n\nClick: Open Datapack's Menu","bold":false,"color":"gray"}]}}]
+execute as @s at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 0.75 1 1
