@@ -1,6 +1,6 @@
 #abd
 
-execute as @s at @s run function ing:project/avmhelper/script/checkbd
+execute as @s at @s run function ing:project/avmhelper/script/check/bd
 
 tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"]
 tellraw @s {"text":"-----------------------------------------------------","color":"gold"}

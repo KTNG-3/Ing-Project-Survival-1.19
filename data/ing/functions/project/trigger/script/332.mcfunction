@@ -1,6 +1,6 @@
 #htd
 
-execute as @s at @s run function ing:project/avmhelper/script/checkhts
+execute as @s at @s run function ing:project/avmhelper/script/check/hts
 
 tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"]
 tellraw @s {"text":"-----------------------------------------------------","color":"gold"}

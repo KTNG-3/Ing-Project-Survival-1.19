@@ -15,12 +15,14 @@ execute as @e at @s if score @s ing.Help matches 3 run function ing:project/trig
 execute as @e at @s if score @s ing.Help matches 31 run function ing:project/trigger/script/31
 execute if score Set_Deathpoint ing.Settings matches 1 as @e at @s if score @s ing.Help matches 32 run function ing:project/trigger/script/32
 execute if score Set_Advancements ing.Settings matches 1 as @e at @s if score @s ing.Help matches 33 run function ing:project/trigger/script/33
-execute as @e at @s if score @s ing.Help matches 331 run function ing:project/trigger/script/331
-execute as @e at @s if score @s ing.Help matches 332 run function ing:project/trigger/script/332
-execute as @e at @s if score @s ing.Help matches 333 run function ing:project/trigger/script/333
-execute as @e at @s if score @s ing.Help matches 334 run function ing:project/trigger/script/334
-execute as @e at @s if score @s ing.Help matches 335 run function ing:project/trigger/script/335
-execute as @e at @s if score @s ing.Help matches 336 run function ing:project/trigger/script/336
+execute if score Set_Advancements ing.Settings matches 1 as @e at @s if score @s ing.Help matches 331 run function ing:project/trigger/script/331
+execute if score Set_Advancements ing.Settings matches 1 as @e at @s if score @s ing.Help matches 332 run function ing:project/trigger/script/332
+execute if score Set_Advancements ing.Settings matches 1 as @e at @s if score @s ing.Help matches 333 run function ing:project/trigger/script/333
+execute if score Set_Advancements ing.Settings matches 1 as @e at @s if score @s ing.Help matches 334 run function ing:project/trigger/script/334
+execute if score Set_Advancements ing.Settings matches 1 as @e at @s if score @s ing.Help matches 335 run function ing:project/trigger/script/335
+execute if score Set_Advancements ing.Settings matches 1 as @e at @s if score @s ing.Help matches 336 run function ing:project/trigger/script/336
+execute if score Set_Advancements ing.Settings matches 1 as @e at @s if score @s ing.Help matches 337 run function ing:project/trigger/script/337
+execute if score Set_Advancements ing.Settings matches 1 as @e at @s if score @s ing.Help matches 338 run function ing:project/trigger/script/338
 execute as @e at @s if score @s ing.Help matches 34 run function ing:project/trigger/script/34
 execute if score Set_Deathpoint ing.Settings matches 1 as @e at @s if score @s ing.Help matches 341 run function ing:project/trigger/script/341
 execute if score Set_Deathpoint ing.Settings matches 1 as @e at @s if score @s ing.Help matches 342 run function ing:project/trigger/script/342

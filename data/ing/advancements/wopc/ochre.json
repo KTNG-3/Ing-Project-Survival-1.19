@@ -1,5 +1,4 @@
 {
-    "__comment": "Have A Bug On This Advancements",
     "display": {
         "title": {
             "text": "ochre"
@@ -12,16 +11,18 @@
         },
         "frame": "task",
         "show_toast": false,
-        "announce_to_chat": true,
+        "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "Get": {
+        "Item": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:ochre_froglight"
+                        "items": [
+                            "minecraft:ochre_froglight"
+                        ]
                     }
                 ]
             }

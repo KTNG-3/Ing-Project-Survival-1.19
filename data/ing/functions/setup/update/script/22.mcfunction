@@ -9,5 +9,9 @@ scoreboard objectives add ing.PLAYER_TNT dummy
 scoreboard players set Set_TNT ing.Settings 1
 scoreboard objectives add ing.TNT_Times dummy
 
+#new adm helper
+scoreboard objectives add ing.AVM_Wopc_All dummy
+scoreboard objectives add ing.AVM_Wts_All dummy
+
 #done
 scoreboard players set VersionID_Data ing.Settings 22

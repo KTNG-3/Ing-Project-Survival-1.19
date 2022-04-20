@@ -1,6 +1,6 @@
 #avt
 
-execute as @s at @s run function ing:project/avmhelper/script/checkadt
+execute as @s at @s run function ing:project/avmhelper/script/check/adt
 
 tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"]
 tellraw @s {"text":"-----------------------------------------------------","color":"gold"}

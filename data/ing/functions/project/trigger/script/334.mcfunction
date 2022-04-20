@@ -1,6 +1,6 @@
 #tbt
 
-execute as @s at @s run function ing:project/avmhelper/script/checktbt
+execute as @s at @s run function ing:project/avmhelper/script/check/tbt
 
 tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"]
 tellraw @s {"text":"-----------------------------------------------------","color":"gold"}
