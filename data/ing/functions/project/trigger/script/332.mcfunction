@@ -21,6 +21,6 @@ execute if entity @s[advancements={ing:hts/warped_forest=true}] as @s run tellra
 execute if entity @s[advancements={ing:hts/warped_forest=false}] as @s run tellraw @s [{"text":"[❌] Warped Forest","color":"red","bold":true}]
 
 tellraw @s {"text" : " "}
-tellraw @s [{"text" : "<< ","color":"gold","bold": true},{"text": "Back To Adventure Time Menu","color": "gold","clickEvent":{"action":"run_command","value":"/trigger ing.Help set 33"},"hoverEvent":{"action":"show_text","contents":[{"text":"You Can Click Me","bold":false,"color":"gray"}]}}]
+tellraw @s [{"text" : "<< ","color":"gold","bold": true},{"text": "Back To Advancements Helper Menu","color": "gold","clickEvent":{"action":"run_command","value":"/trigger ing.Help set 33"},"hoverEvent":{"action":"show_text","contents":[{"text":"You Can Click Me","bold":false,"color":"gray"}]}}]
 tellraw @s {"text" : " "}
 tellraw @s {"text" : "-----------------------------------------------------","color":"gold"}

@@ -1,0 +1,31 @@
+{
+    "__comment": "Have A Bug On This Advancements",
+    "display": {
+        "title": {
+            "text": "verdant"
+        },
+        "description": {
+            "text": "Get new Froglight"
+        },
+        "icon": {
+            "item": "minecraft:verdant_froglight"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Get": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:verdant_froglight"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "ing:wopc/root"
+}

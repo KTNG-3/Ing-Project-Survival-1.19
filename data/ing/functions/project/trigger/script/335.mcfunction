@@ -31,6 +31,6 @@ execute if entity @s[advancements={ing:cat/9=false}] as @s run tellraw @s [{"tex
 execute if entity @s[advancements={ing:cat/10=true}] as @s run tellraw @s [{"text":"[✓] Black","color":"dark_green","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Cat Type : 10","bold":false,"color":"gray"}]}}]
 execute if entity @s[advancements={ing:cat/10=false}] as @s run tellraw @s [{"text":"[❌] Black","color":"red","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Cat Type : 10","bold":false,"color":"gray"}]}}]
 tellraw @s {"text" : " "}
-tellraw @s [{"text" : "<< ","color":"gold","bold": true},{"text": "Back To Adventure Time Menu","color": "gold","clickEvent":{"action":"run_command","value":"/trigger ing.Help set 33"},"hoverEvent":{"action":"show_text","contents":[{"text":"You Can Click Me","bold":false,"color":"gray"}]}}]
+tellraw @s [{"text" : "<< ","color":"gold","bold": true},{"text": "Back To Advancements Helper Menu","color": "gold","clickEvent":{"action":"run_command","value":"/trigger ing.Help set 33"},"hoverEvent":{"action":"show_text","contents":[{"text":"You Can Click Me","bold":false,"color":"gray"}]}}]
 tellraw @s {"text" : " "}
 tellraw @s {"text" : "-----------------------------------------------------","color":"gold"}
