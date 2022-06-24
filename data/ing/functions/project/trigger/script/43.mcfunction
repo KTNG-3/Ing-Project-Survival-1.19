@@ -1,6 +1,6 @@
-tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"]
+execute as @s at @s run function ing:project/trigger/script/-1
 tellraw @s {"text":"-----------------------------------------------------","color":"gold"}
-tellraw @s [{"text" : "iNG Project","color": "dark_green","bold": true},{"text": " Survival 1.18","color": "gold"}]
+tellraw @s [{"text" : "Ing Project","color": "dark_green","bold": true},{"text": " Survival 1.18","color": "gold"}]
 tellraw @s {"text" : " "}
 tellraw @s [{"text" : "------- Control Panel -------","color": "dark_aqua"}]
 tellraw @s {"text" : " "}
@@ -12,6 +12,6 @@ tellraw @s [{"text" : ">> ","color":"dark_red","bold": true},{"text": "Uninstall
 tellraw @s {"text" : " "}
 tellraw @s [{"text" : "-----------------------------","color": "dark_aqua"}]
 tellraw @s {"text" : " "}
-tellraw @s [{"text" : "<< ","color":"blue","bold": true},{"text": "Back To Admin Menu","color": "blue","clickEvent":{"action":"run_command","value":"/trigger ing.Help set 4"},"hoverEvent":{"action":"show_text","contents":[{"text":"Go Back To Admin Page","bold":false,"color":"gray"}]}}]
+tellraw @s [{"text" : "<< ","color":"gold","bold": true},{"text": "Back To Admin Menu","color": "gold","clickEvent":{"action":"run_command","value":"/trigger ing.Help set 4"},"hoverEvent":{"action":"show_text","contents":[{"text":"Go Back To ` Admin ` Page","bold":false,"color":"gray"}]}}]
 tellraw @s {"text" : " "}
 tellraw @s {"text" : "-----------------------------------------------------","color":"gold"}

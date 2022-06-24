@@ -1,5 +1,5 @@
 execute as @s at @s run tellraw @s {"text":"-----------------------------------------------------","color":"gold"}
-execute as @s at @s run tellraw @s [{"text" : "iNG Project","color": "dark_green","bold": true},{"text": " Deathpoint","color": "gold"}]
+execute as @s at @s run tellraw @s [{"text" : "Ing Project","color": "dark_green","bold": true},{"text": " Deathpoint","color": "gold"}]
 execute as @s at @s run tellraw @s {"text" : " "}
 execute as @s at @s run tellraw @s [{"text" : "Name : ","color":"red","bold": true},{"selector":"@s","color": "gold"}]
 execute as @s at @s run tellraw @s[scores={ing.DEATH_world=1}] [{"text" : "Dimension : ","color":"red","bold": true},{"text": "Overworld","color": "gold"}]

@@ -2,7 +2,7 @@
     "type": "crafting_shaped",
     "key": {
         "1": {
-            "tag": "ing:mangrovething"
+            "tag": "minecraft:mangrove_logs"
         }
     },
     "pattern": [

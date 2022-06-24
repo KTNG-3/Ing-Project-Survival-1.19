@@ -11,6 +11,9 @@ scoreboard objectives add ing.DEATH_h dummy
 scoreboard objectives add ing.DEATH_m dummy
 scoreboard objectives add ing.DEATH_s dummy
 
+#settings
+scoreboard players set Format_Deathpoint ing.Settings 3
+
 #bug Fix
 scoreboard players add @a ing.DEATH_x 0
 scoreboard players add @a ing.DEATH_y 0

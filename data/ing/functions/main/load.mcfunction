@@ -6,3 +6,6 @@ execute if score First_Load ing.Settings matches 0 run function ing:setup/first/
 
 #version
 scoreboard players set VersionID_Now ing.Settings 21
+
+#clear the useless data
+function ing:project/lag/script/object/clear

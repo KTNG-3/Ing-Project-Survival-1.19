@@ -10,6 +10,7 @@ function ing:project/math/create
 function ing:project/crystal/create
 function ing:project/avmhelper/create
 function ing:project/tnt/create
+function ing:project/lag/create
 
 #players settings
 scoreboard objectives add ing.PLAYER_Deathpoint dummy
@@ -22,13 +23,8 @@ scoreboard players set Set_Deathpoint ing.Settings 1
 scoreboard players set Set_Damage ing.Settings 1
 scoreboard players set Set_Crystal ing.Settings 1
 scoreboard players set Set_Advancements ing.Settings 1
-scoreboard players set Set_TNT ing.Settings 1
-
-scoreboard players set Format_Deathpoint ing.Settings 3
-scoreboard players set Format_Crystal ing.Settings 2
-
-#damage Fix
-tag @a add ing.TagDamage
+scoreboard players set Set_TNT ing.Settings 0
+scoreboard players set Set_Lag ing.Settings 0
 
 #gamerules
 gamerule sendCommandFeedback false

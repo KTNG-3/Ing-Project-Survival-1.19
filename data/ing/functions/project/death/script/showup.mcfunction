@@ -14,6 +14,8 @@ scoreboard players add @s ing.DEATH_h 0
 scoreboard players add @s ing.DEATH_m 0
 scoreboard players add @s ing.DEATH_s 0
 
+execute unless score Format_Deathpoint ing.Settings matches 1..3 run scoreboard players set Format_Deathpoint ing.Settings 3
+
 execute as @s at @s if score Format_Deathpoint ing.Settings matches 1 run function ing:project/death/script/format/1
 execute as @s at @s if score Format_Deathpoint ing.Settings matches 2 run function ing:project/death/script/format/2
 execute as @s at @s if score Format_Deathpoint ing.Settings matches 3 run function ing:project/death/script/format/3

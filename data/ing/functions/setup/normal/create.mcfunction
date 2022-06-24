@@ -15,3 +15,5 @@ scoreboard players add @a ing.PLAYER_TNT 0
 
 #loop
 schedule function ing:setup/normal/loop 3s
+
+schedule function ing:project/lag/script/items/check 3s

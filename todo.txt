@@ -2,12 +2,9 @@
 - Auto Item (Torch // Totem)
 - Waypoint
 
-//CHANGE Version to 22
-//Change log
-
-froglight:
-    - Fix Advancement
-    - Create Advancement Helper
-
-Lead All Frog:
-    - Create Advancement Helper
+//Rework 'Datapacks Settings (Admin)' change its like timber /or/ just make own stlye (pages && menu)
+//Create new 'Datapacks Settings (Admin)' for 'Anti-Lag'
+//                                                /\
+//                                                ||
+//                                                ||
+//                                     Only have kill items when its a lot (i mean item)

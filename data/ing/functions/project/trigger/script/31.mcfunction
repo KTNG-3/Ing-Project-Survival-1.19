@@ -6,9 +6,9 @@ scoreboard players add @s ing.STATS_dmg_real 0
 
 #stats
 
-tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"]
+execute as @s at @s run function ing:project/trigger/script/-1
 tellraw @s {"text":"-----------------------------------------------------","color":"gold"}
-tellraw @s [{"text" : "iNG Project","color": "dark_green","bold": true},{"text": " Status","color": "gold"}]
+tellraw @s [{"text" : "Ing Project","color": "dark_green","bold": true},{"text": " Status","color": "gold"}]
 tellraw @s {"text" : " "}
 tellraw @s [{"text" : "------------- Stats -------------","color": "dark_aqua"}]
 tellraw @s {"text" : " "}
@@ -23,6 +23,6 @@ tellraw @s [{"text" : "Damage Dealt : ","color":"red","bold": true},{"score":{"n
 tellraw @s {"text" : " "}
 tellraw @s [{"text" : "---------------------------------","color": "dark_aqua"}]
 tellraw @s {"text" : " "}
-tellraw @s [{"text" : "<< ","color":"blue","bold": true},{"text": "Back To Player Page Menu","color": "blue","clickEvent":{"action":"run_command","value":"/trigger ing.Help set 3"}}]
+tellraw @s [{"text" : "<< ","color":"blue","bold": true},{"text": "Back To Player Page Menu","color": "blue","clickEvent":{"action":"run_command","value":"/trigger ing.Help set 3"},"hoverEvent":{"action":"show_text","contents":[{"text":"Go Back To ` Player ` Page Menu","bold":false,"color":"gray"}]}}]
 tellraw @s {"text" : " "}
 tellraw @s {"text" : "-----------------------------------------------------","color":"gold"}

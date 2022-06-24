@@ -10,6 +10,9 @@ function ing:project/math/delete
 function ing:project/crystal/delete
 function ing:project/avmhelper/delete
 function ing:project/tnt/delete
+function ing:project/lag/delete
+
+tag @e remove ing.Admin
 
 #players settings
 scoreboard objectives remove ing.PLAYER_Deathpoint

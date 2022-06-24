@@ -1,0 +1,2 @@
+execute as @a at @s run tellraw @s [{"text" : "[Ing]","color":"dark_green","bold": true},{"text" : " Find ","color":"red","bold": true},{"score":{"name":"ItemNum","objective":"ing.Stats"},"color":"gold"},{"text" : " Item(s), Kill all Item in ","color":"red","bold": true},{"text" : "15","color":"gold","bold": true},{"text" : " second(s)","color":"red","bold": true}]
+execute as @a at @s run playsound minecraft:entity.warden.tendril_clicks master @s ~ ~ ~ 0.75 1 1

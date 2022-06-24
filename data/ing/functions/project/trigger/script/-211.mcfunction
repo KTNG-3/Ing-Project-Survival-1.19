@@ -1,0 +1,1 @@
+execute as @s at @s run function ing:project/trigger/script/20

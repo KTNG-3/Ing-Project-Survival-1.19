@@ -11,3 +11,4 @@ function ing:project/damage/tick
 function ing:project/death/tick
 function ing:project/crystal/tick
 function ing:project/tnt/tick
+function ing:project/lag/tick

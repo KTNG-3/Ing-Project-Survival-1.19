@@ -1,0 +1,13 @@
+tellraw @s {"text":"-----------------------------------------------------","color":"gold"}
+tellraw @s [{"text" : "Ing Project Survival 1.19","color": "dark_green","bold": true},{"text": " - ","color": "gray"},{"text": "Update 2.2.0","color": "gold","hoverEvent":{"action":"show_text","contents":[{"text":"Update From ","bold":false,"color":"gray"},{"text":"2.1","bold":false,"color":"red"},{"text":" ==> ","bold":false,"color":"gray"},{"text":"2.2.0","bold":true,"color":"green"}]}}]
+tellraw @s {"text" : " "}
+tellraw @s [{"text" : "+ ","color":"green","bold": true},{"text": "Change Log","color": "blue","bold": false}]
+tellraw @s [{"text" : "+ ","color":"green","bold": true},{"text": "TNT Timer","color": "blue","bold": false,"hoverEvent":{"action":"show_text","contents":[{"text":"` TNT Timer ` default setting is disable","bold":false,"color":"gray"}]}}]
+tellraw @s [{"text" : "+ ","color":"green","bold": true},{"text": "Anti-Lag","color": "blue","bold": false,"hoverEvent":{"action":"show_text","contents":[{"text":"` Anti-Lag ` default setting is disable","bold":false,"color":"gray"}]}}]
+tellraw @s [{"text" : "+ ","color":"green","bold": true},{"text": "Advancements Helper","color": "blue","bold": false,"clickEvent":{"action":"run_command","value":"/trigger ing.Help set 33"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click: Go To ` Advancements Helper ` Menu","bold":false,"color":"gray"}]}}]
+tellraw @s [{"text" : "+ ","color":"green","bold": true},{"text": "   > When the Squad Hops into Town","color": "dark_aqua","bold": false,"clickEvent":{"action":"run_command","value":"/trigger ing.Help set 337"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click: Go To ` When the Squad Hops into Town ` Advancement","bold":false,"color":"gray"}]}}]
+tellraw @s [{"text" : "+ ","color":"green","bold": true},{"text": "   > With Our Powers Combined!","color": "dark_aqua","bold": false,"clickEvent":{"action":"run_command","value":"/trigger ing.Help set 338"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click: Go To ` With Our Powers Combined! ` Advancement","bold":false,"color":"gray"}]}}]
+tellraw @s [{"text" : "= ","color":"yellow","bold": true},{"text": "Info Page","color": "blue","bold": false,"clickEvent":{"action":"run_command","value":"/trigger ing.Help set 2"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click: Go To ` Info ` Page","bold":false,"color":"gray"}]}}]
+tellraw @s [{"text" : "= ","color":"yellow","bold": true},{"text": "A little bit changes","color": "blue","bold": false}]
+tellraw @s {"text" : " "}
+tellraw @s {"text" : "-----------------------------------------------------","color":"gold"}

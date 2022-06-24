@@ -1,15 +1,29 @@
+##Ing.Help
 scoreboard players enable @a ing.Help
 
 #playsound
 execute as @e at @s if score @s ing.Help matches ..-1 run playsound minecraft:ui.button.click master @s ~ ~ ~ 0.25 2 1
 execute as @e at @s if score @s ing.Help matches 1.. run playsound minecraft:ui.button.click master @s ~ ~ ~ 0.25 2 1
 
+#save
+execute as @e at @s if score @s ing.Help matches ..-1 run execute store result score @s ing.Trigger_Help run scoreboard players get @s ing.Help
+execute as @e at @s if score @s ing.Help matches 1.. run execute store result score @s ing.Trigger_Help run scoreboard players get @s ing.Help
+
 #script
 execute as @e at @s if score @s ing.Help matches -1 run function ing:project/trigger/script/-1
+execute as @e at @s if score @s ing.Help matches -10 run function ing:project/trigger/script/-10
 
 execute as @e at @s if score @s ing.Help matches 1 run function ing:project/trigger/script/1
 
 execute as @e at @s if score @s ing.Help matches 2 run function ing:project/trigger/script/2
+execute as @e at @s if score @s ing.Help matches 20 run function ing:project/trigger/script/20
+execute as @e at @s if score @s ing.Help matches 21 run function ing:project/trigger/script/21
+execute as @e at @s if score @s ing.Help matches 22 run function ing:project/trigger/script/22
+execute as @e at @s if score @s ing.Help matches 23 run function ing:project/trigger/script/23
+execute as @e at @s if score @s ing.Help matches -20 run function ing:project/trigger/script/-20
+execute as @e at @s if score @s ing.Help matches -21 run function ing:project/trigger/script/-21
+execute as @e at @s if score @s ing.Help matches -211 run function ing:project/trigger/script/-211
+execute as @e at @s if score @s ing.Help matches -212 run function ing:project/trigger/script/-212
 
 execute as @e at @s if score @s ing.Help matches 3 run function ing:project/trigger/script/3
 execute as @e at @s if score @s ing.Help matches 31 run function ing:project/trigger/script/31
@@ -60,3 +74,10 @@ execute as @e[tag=ing.Admin] at @s if score @s ing.Help matches 433 run function
 #end
 execute as @e at @s if score @s ing.Help matches ..1 run scoreboard players set @s ing.Help 0
 execute as @e at @s if score @s ing.Help matches 1.. run scoreboard players set @s ing.Help 0
+
+##Ing.Input
+execute as @e at @s if score @s ing.Input matches ..-1 run execute store result score @s ing.Trigger_Input run scoreboard players get @s ing.Input
+execute as @e at @s if score @s ing.Input matches 1.. run execute store result score @s ing.Trigger_Input run scoreboard players get @s ing.Input
+
+execute as @e at @s if score @s ing.Input matches ..1 run scoreboard players set @s ing.Input 0
+execute as @e at @s if score @s ing.Input matches 1.. run scoreboard players set @s ing.Input 0

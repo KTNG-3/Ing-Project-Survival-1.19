@@ -4,6 +4,8 @@ execute if score Set_Crystal ing.Settings matches 1 run bossbar set ing:ing.crys
 execute if score Set_Crystal ing.Settings matches 0 run bossbar set ing:ing.crystal visible false
 
 #change name
+execute unless score Format_Crystal ing.Settings matches 1..3 run scoreboard players set Format_Crystal ing.Settings 2
+
 execute if score Format_Crystal ing.Settings matches 1 run function ing:project/crystal/script/format/1
 execute if score Format_Crystal ing.Settings matches 2 run function ing:project/crystal/script/format/2
 execute if score Format_Crystal ing.Settings matches 3 run function ing:project/crystal/script/format/3

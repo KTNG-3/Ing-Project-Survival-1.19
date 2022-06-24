@@ -2,7 +2,7 @@
     "type": "crafting_shaped",
     "key": {
         "1": {
-            "tag": "ing:crimsonthing"
+            "tag": "minecraft:crimson_stems"
         }
     },
     "pattern": [

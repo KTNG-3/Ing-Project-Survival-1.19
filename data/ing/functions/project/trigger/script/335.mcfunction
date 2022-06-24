@@ -2,9 +2,9 @@
 
 function ing:project/avmhelper/script/check/cat
 
-tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"]
+execute as @s at @s run function ing:project/trigger/script/-1
 tellraw @s {"text":"-----------------------------------------------------","color":"gold"}
-tellraw @s [{"text" : "iNG Project","color": "dark_green","bold": true},{"text": " A Complete Catalogue","color": "gold"}]
+tellraw @s [{"text" : "Ing Project","color": "dark_green","bold": true},{"text": " A Complete Catalogue","color": "gold"}]
 tellraw @s {"text" : " "}
 tellraw @s [{"text" : "Done Cat Type : ","color":"gold","bold": true},{"score":{"name":"@s","objective":"ing.AVM_Cat_All"},"color":"green"},{"text" : " / ","color":"gray","bold": false},{"text" : "11","color":"red","bold": true}]
 tellraw @s {"text" : " "}
@@ -31,6 +31,6 @@ execute if entity @s[advancements={ing:cat/9=false}] as @s run tellraw @s [{"tex
 execute if entity @s[advancements={ing:cat/10=true}] as @s run tellraw @s [{"text":"[✓] Black","color":"dark_green","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Cat Type : 10","bold":false,"color":"gray"}]}}]
 execute if entity @s[advancements={ing:cat/10=false}] as @s run tellraw @s [{"text":"[❌] Black","color":"red","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Cat Type : 10","bold":false,"color":"gray"}]}}]
 tellraw @s {"text" : " "}
-tellraw @s [{"text" : "<< ","color":"gold","bold": true},{"text": "Back To Advancements Helper Menu","color": "gold","clickEvent":{"action":"run_command","value":"/trigger ing.Help set 33"},"hoverEvent":{"action":"show_text","contents":[{"text":"You Can Click Me","bold":false,"color":"gray"}]}}]
+tellraw @s [{"text" : "<< ","color":"gold","bold": true},{"text": "Back To Advancements Helper Menu","color": "gold","clickEvent":{"action":"run_command","value":"/trigger ing.Help set 33"},"hoverEvent":{"action":"show_text","contents":[{"text":"Go Back To ` Advancements Helper ` Menu","bold":false,"color":"gray"}]}}]
 tellraw @s {"text" : " "}
 tellraw @s {"text" : "-----------------------------------------------------","color":"gold"}
